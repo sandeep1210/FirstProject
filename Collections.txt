@@ -1,0 +1,91 @@
+1) java.util.Collection
+java.util.List
+java.util.Set
+java.util.Enumeration
+java.util.Vector
+java.util.ArrayList
+java.util.LinkedList
+
+
+e.deepclone: It will retrevie the data what ever we need.
+e.shallowCloning: It will retrevie all data in the object.
+
+Linked: FirstELemnt is head.-> It is perfromance orianted because it will add objects easily and remove objects easily.
+
+Peek()->
+Pool()->
+
+2) Wrapper classes are Primitive data types which is used as a objects.
+
+Two objects cannot be added. Two integers cab be added.
+
+3) Autoboxing:
+
+It will convert object to primitive data type.
+
+Ex: Int a=10;
+int b=20;
+obj=b; // AutoBoxing ------------------New feature
+
+Integer obj= new Integer(b); --------------- Old feature 1.4
+s.o.p("k");
+
+4)
+Enhanced for loop:
+
+ for(int k: a) -> No need of index
+   (:-> In the place of a we can use list, set)
+{
+ s.o.p("k");
+}
+
+
+5) Stactic variables can be accessed using class names.
+
+
+To use static variables and method we can use directly "import static com.Veritis.CollectionDemo.Constants".
+
+Constants-> Class name;
+
+6) Variable arguments:
+
+we can call many number of arguments instead of method overloading. That means calling add method with multiple parameters if use below concept we can call only once.
+
+int add(int... a)
+{
+	int sum=o;
+	for(int k; a)
+		{
+			sum = sum+k;
+		}
+	return k;
+}
+
+7) Vector: If capacity is grown it will not reduce.
+
+example shown in class.
+
+Size : It will tell the real size.
+Capacity : It will give the actual capacity of the vector.
+
+For Example: He can eat 10 idlis -> It is capacity.
+ But he ate only 3 idlis -> It is size.
+
+8) Collection is a interface.
+   Collections is a class.
+
+9)
+HashSet:
+
+It will be used when we need retreive fast for a element.
+
+It is the fastest searching algorithm.
+
+Hash set will not allow duplicate items.
+
+LinkedHashSet:
+
+It is used where we don't need duplication and we need to store the elements in order format. For example: When we are using dropdown for state names. 
+
+
+ 
